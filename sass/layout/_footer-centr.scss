@@ -1,3 +1,8 @@
+.footer-center {
+    margin-left: 70px;
+
+}
+
 .invite-title {
     font-weight: 700;
     font-size: 14px;
@@ -11,13 +16,17 @@
 
 .social-list {
     display: flex;
+
+
 }
 
-.social_item {
-    width:calc( (100 - 30px) / 4);
-    margin-right: 10px;
+// .social_item {
+//     width: calc((100- 30px) / 4);
+//     margin-right: 10px;
+// }
+.social_item+.social_item {
+    margin-left: 10px;
 }
-
 .social_item:nth-child(4n) {
     margin-right: 0px;
 }
@@ -52,10 +61,5 @@
     height: 20px;
 
     fill: currentColor;
-
-}
-
-.footer-center {
-    margin-left: 70px;
 
 }
