@@ -16,10 +16,9 @@
     margin-right: 30px;
     box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
 
-}
-
-.team-item:nth-child(4n) {
-    margin-right: 0px;
+    &:nth-child(4n) {
+        margin-right: 0px;
+    }
 }
 
 .employee {
@@ -29,7 +28,6 @@
     color: var(--primary-head-text);
     text-align: center;
     margin-bottom: 10px;
-
 }
 
 .employee-card {
@@ -37,6 +35,4 @@
     border-radius: 0px 0px 4px 4px;
     text-align: center;
     padding: 30px 0;
-
-
 }
