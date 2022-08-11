@@ -732,4 +732,22 @@ activities {
 .contact-link-bottom:hover,
 .contact-link-bottom:focus {
   color: var(--hover-color);
+}
+
+.address-item {
+  margin-bottom: 9px;
+}
+
+.address-item:last-child {
+  margin-bottom: 0px;
+}
+
+.footer-main {
+  background-color: var(--dark-bcg);
+  padding: 60px 0;
+}
+
+.footer {
+  display: flex;
+  align-items: baseline;
 }/*# sourceMappingURL=main.css.map */

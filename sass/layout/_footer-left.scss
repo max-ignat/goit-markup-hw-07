@@ -35,3 +35,10 @@
     color: var(--hover-color);
 }
 
+.address-item {
+    margin-bottom: 9px;
+}
+
+.address-item:last-child {
+    margin-bottom: 0px;
+}
