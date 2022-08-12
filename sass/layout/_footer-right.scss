@@ -1,12 +1,10 @@
 .footer-right {
-
     margin-left: 93px;
     width: auto;
 }
 
 .subscribe-form {
     display: flex;
-
 }
 
 .subscribe-title {
@@ -20,7 +18,6 @@
 }
 
 .subscribe-button {
-
     display: flex;
     background-color: var(--accent-color);
     color: #FFFFFF;
@@ -28,9 +25,6 @@
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
-
-
-
     box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
     border-radius: 4px;
     width: 200px;
@@ -38,43 +32,34 @@
     margin: 0 auto;
     padding: 10px 29px;
 
-}
-
-.subscribe-button:hover,
-.subscribe-button:focus {
-    border: 1px solid var(--hover-color);
-
+    &:hover,
+    &:focus {
+        border: 1px solid var(--hover-color);
+    }
 }
 
 .subscribe-input {
-
     margin-right: 12px;
     padding: 15px;
     color: #ffffff;
     height: 50px;
-    /* outline-color: var(--secondary-text); */
     width: 358px;
     background-color: transparent;
     border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-}
-
-.subscribe-input::placeholder {
-    color: var(--secondary-text);
+    &::placeholder {
+        color: var(--secondary-text);
+    }
 }
 
 .subscribe-icon {
-
     margin-left: 10px;
     width: 24px;
     height: 24px;
     fill: currentColor;
-
-
 }

@@ -130,18 +130,21 @@
 
 }
 
-.contact__link:hover,
-.contact__link:focus {
-    color: var(--hover-color);
+.contact__link {
+    &:hover {
+        color: var(--hover-color);
+    }
+
+    &:focus {
+        color: var(--hover-color);
+    }
 }
 
-
-
-
-.navigation__link:hover,
-.navigation__link:focus {
-    color: var(--hover-color);
-
+.navigation__link {
+    &:hover,
+    &:focus {
+        color: var(--hover-color);
+    }
 }
 
 .navigation__link {

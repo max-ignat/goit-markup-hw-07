@@ -1,6 +1,8 @@
-.modal-close:hover,
-.modal-close:focus {
+.modal-close {
+    &:hover,
+    &:focus {
     fill: var(--hover-color);
+    }
 }
 
 .modal-title {

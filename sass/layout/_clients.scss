@@ -6,6 +6,7 @@
     letter-spacing: 0.03em;
     text-align: center;
 }
+
 .clients__list {
     display: flex;
 }
@@ -14,21 +15,15 @@
     width: calc((100% - 150px) /6);
     margin-right: 30px;
 
+    &:nth-child(6n) {
+        margin-right: 0px;
+    }
 }
-
-.clients__item:nth-child(6n) {
-    margin-right: 0px;
-
-}
-
-
 
 .clients__icon {
     width: 106px;
     height: 60px;
     fill: currentColor;
-
-
 }
 
 .clients__link {
@@ -40,18 +35,13 @@
     justify-content: center;
     align-items: center;
     color: var(--clients-color);
-
     transition-property: color, border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.clients__link:hover {
-    color: var(--hover-color);
-    border: 1px solid var(--accent-color);
-}
-
-.clients__link:focus {
-    color: var(--hover-color);
-    border: 1px solid var(--accent-color);
+    &:hover,
+    &:focus {
+        color: var(--hover-color);
+        border: 1px solid var(--accent-color);
+    }
 }

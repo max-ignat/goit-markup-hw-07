@@ -131,8 +131,7 @@ button {
   pointer-events: none;
 }
 
-.modal-close:hover,
-.modal-close:focus {
+.modal-close:hover, .modal-close:focus {
   fill: var(--hover-color);
 }
 
@@ -428,13 +427,14 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact__link:hover,
+.contact__link:hover {
+  color: var(--hover-color);
+}
 .contact__link:focus {
   color: var(--hover-color);
 }
 
-.navigation__link:hover,
-.navigation__link:focus {
+.navigation__link:hover, .navigation__link:focus {
   color: var(--hover-color);
 }
 
@@ -518,8 +518,7 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero__button:hover,
-.hero__button:focus {
+.hero__button:hover, .hero__button:focus {
   background-color: var(--hover-color);
   color: var(--primary-bcg);
 }
@@ -649,7 +648,6 @@ activities {
   margin-right: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-
 .team__item:nth-child(4n) {
   margin-right: 0px;
 }
@@ -697,9 +695,7 @@ activities {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.social-list__link:hover,
-.social-list__link:focus {
+.social-list__link:hover, .social-list__link:focus {
   color: #ffffff;
   background-color: var(--accent-color);
 }
@@ -730,7 +726,6 @@ activities {
   width: calc((100% - 150px) / 6);
   margin-right: 30px;
 }
-
 .clients__item:nth-child(6n) {
   margin-right: 0px;
 }
@@ -754,13 +749,7 @@ activities {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.clients__link:hover {
-  color: var(--hover-color);
-  border: 1px solid var(--accent-color);
-}
-
-.clients__link:focus {
+.clients__link:hover, .clients__link:focus {
   color: var(--hover-color);
   border: 1px solid var(--accent-color);
 }
@@ -799,9 +788,7 @@ activities {
   margin: 0 auto;
   padding: 10px 29px;
 }
-
-.subscribe-button:hover,
-.subscribe-button:focus {
+.subscribe-button:hover, .subscribe-button:focus {
   border: 1px solid var(--hover-color);
 }
 
@@ -810,7 +797,6 @@ activities {
   padding: 15px;
   color: #ffffff;
   height: 50px;
-  /* outline-color: var(--secondary-text); */
   width: 358px;
   background-color: transparent;
   border-radius: 4px;
@@ -820,7 +806,6 @@ activities {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .subscribe-input::placeholder {
   color: var(--secondary-text);
 }
@@ -850,14 +835,12 @@ activities {
 
 .social__list-footer {
   display: flex;
-  /* gap: 10px; */
 }
 
 .social__item {
   width: calc((100% - 30px) / 4);
   margin-right: 10px;
 }
-
 .social__item:nth-child(4n) {
   margin-right: 0px;
 }
@@ -875,9 +858,7 @@ activities {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.social__link:hover,
-.social__link:focus {
+.social__link:hover, .social__link:focus {
   color: #ffffff;
   background-color: #2196F3;
   overflow: hidden;
@@ -902,7 +883,6 @@ activities {
 .address-item {
   margin-bottom: 9px;
 }
-
 .address-item:last-child {
   margin-bottom: 0px;
 }
@@ -919,9 +899,7 @@ activities {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.contact-link-bottom:hover,
-.contact-link-bottom:focus {
+.contact-link-bottom:hover, .contact-link-bottom:focus {
   color: var(--hover-color);
 }
 
@@ -934,9 +912,7 @@ activities {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.contact-link.route:hover,
-.contact-link.route:focus {
+.contact-link.route:hover, .contact-link.route:focus {
   color: var(--hover-color);
 }
 
@@ -956,8 +932,7 @@ activities {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filter__button:hover,
-.filter__button:focus {
+.filter__button:hover, .filter__button:focus {
   background-color: var(--hover-color);
   color: #ffffff;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -978,7 +953,6 @@ activities {
 .filter__item {
   margin-right: 8px;
 }
-
 .filter__item:nth-child(5n) {
   margin-right: 0px;
 }
