@@ -1,44 +1,56 @@
-.list.adv {
+/* advantages */
+
+.list.advantages {
     display: flex;
+
 }
 
-.adv__item {
+.advantages__item {
     width: calc((100% - 90px) / 4);
     margin-right: 30px;
-
-    &:nth-child(4n) {
-        margin-right: 0px;
-    }
 }
 
-.adv-thumb {
+.advantages__item:nth-child(4n) {
+    margin-right: 0px;
+}
+
+.advantages__thumb {
     width: 270px;
     height: 120px;
+
     background-color: #F5F4FA;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 4px;
     margin-bottom: 25px;
+
+
+
 }
 
-.adv-icon {
+.advantages__icon {
     width: 70px;
     height: 70px;
+
+
 }
 
-.advantage {
+.advantages__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.71;
     text-transform: uppercase;
     color: var(--primary-head-text);
+
 }
 
-.advantage-description {
+.advantages__description {
     margin-top: 10px;
+
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: var(--secondary-text);
+
 }

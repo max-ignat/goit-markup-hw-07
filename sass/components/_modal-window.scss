@@ -30,22 +30,8 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover,
-    &:focus {
-        fill: var(--hover-color);
-      }
-}
 
-.modal-title {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--primary-head-text);
-    margin-bottom: 12px;
 }
-
 .is-hidden {
     visibility: hidden;
     opacity: 0;
